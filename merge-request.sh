@@ -25,7 +25,7 @@ BODY="{
     \"id\": ${CI_PROJECT_ID},
     \"source_branch\": \"${CI_COMMIT_REF_NAME}\",
     \"target_branch\": \"${TARGET_BRANCH}\",
-    \"remove_source_branch\": true,
+    \"remove_source_branch\": false,
     \"title\": \"WIP: ${CI_COMMIT_REF_NAME} ${TARGET_BRANCH}\",
     \"assignee_id\":\"${GITLAB_USER_ID}\"
 }";
